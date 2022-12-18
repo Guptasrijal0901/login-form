@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-decoration: none;
+    text-transform: capitalize;
+    height: 100vh;
+    width: 100%;
+    background-image: url(back.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
+.container{
+    width: 100%;
+    max-width: 470px;
+    padding: 30px 20px ;
+    background: transparent;
+    border: 2px solid transparent ;
+    border-radius: 40px;
+}
+.container h1{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+}
+.container form{
+    padding: 0 50px;
+}
+form .main{
+position: relative;
+margin: 30px 0;
+border-bottom: 1px;
+}
+.main input{
+    width: 100%;
+    padding: 0 5px ;
+    font-size: 1rem;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(233, 230, 226);
+    border-radius: 20px;
+}
+/* .main label{
+    position: absolute;
+    top: 10px;
+    left: px;
+    font-size: 1.1rem;
+    font-weight: bold; */
+    /* transform: translateY(-50%);
+    pointer-events: none;
+    transition: all .40s ease; */
+/* } */
+.main ::placeholder{
+    padding-left: 8px;
+}
+.forget a{
+    padding-left: 8px;
+    text-decoration: none;
+    
+}
+.forget{
+    padding-bottom: 30px;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+input[ type="submit"]{
+height: 40px;
+width: 100%;
+border: none;
+background: rgb(233, 230, 226);
+border-radius: 20px;
+font-size: 20px;
+/* font-weight: bold; */
+}
+.signup{
+font-size: 1rem;
+padding-top: 18px;
+padding-left: 8px;
+}
+.signup a{
+    text-decoration: none;
+    /* padding-left: 40px; */
+}
+@media(max-width: 525px){
+    body{
+        padding: 0 2%;
+    }
+    .container{
+        padding: 10px 5px;
+
+    }
+}
